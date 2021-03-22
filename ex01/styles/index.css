@@ -1,0 +1,290 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.card-wrapper {
+  height: fit-content;
+  width: fit-content;
+  display: inline-block;
+  position: relative;
+}
+.card-wrapper > .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.card-wrapper:hover > .overlay {
+  background-color: black;
+  opacity: 0.5;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card-wrapper:hover .overlay > h1 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.overlay {
+  display: inline-flex;
+  transition: 0.5s ease;
+  opacity: 0;
+  backface-visibility: hidden;
+  overflow: hidden;
+  height: unset;
+}
+
+.image-style {
+  width: 200px;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+}
+
+.popupImg{
+  display: inline-flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+  height: 600px;
+  width: 600px;
+
+}
+
+.popupImg > img{
+  width: 400px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  background: #FFF;
+}
+
+#popup1 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup2 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup3 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup4 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup5 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup6 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup7 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup8 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup9 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#popup10 {
+  display: hidden; /* Hidden by default */
+  flex-direction: column;
+  position:absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  width: 600px; 
+  height:600px; 
+  overflow:hidden;
+  background-color: wheat;
+  transition: 0,5s ease;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+button{
+  display: block;
+  background-color: red;
+}
